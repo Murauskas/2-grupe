@@ -108,7 +108,16 @@ h2{
     font-size: 14px;
 }
 
-.project {
+.projektai {
+    display: flex;
+    flex-direction: column;
     gap: 10px;
+}
+
+.about-people img {
+    max-width: 100%;
+    min-height: 25vh;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(70%);
 }
 
