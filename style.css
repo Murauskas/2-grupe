@@ -1,4 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
-    background-color: black;
+    font-family: sans-serif;
+}
+
+.display-none {
+    display: none;
+}
+
+.wrapper {
+    min-width: 150px;
+    margin: 0 auto;
+}
+
+.hero {
+    background-image: url(images/architect.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 200px;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    background-color: rgba(0, 0, 0 , 0.8);
 }
