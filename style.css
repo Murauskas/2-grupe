@@ -239,6 +239,6 @@ footer{
 
     .person-card {
         flex-basis: calc(25% - 7.5px);
-        /* height: 150px; */
+        height: 150px;
     }
 }
