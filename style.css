@@ -71,6 +71,8 @@ h2{
     background-size: cover;
     min-height: 200px;
     height: 25vh;
+    object-fit: cover;
+    width: 100%;
 }
 
 .brick-house {
@@ -176,6 +178,11 @@ footer{
 }
 
 @media screen and (min-width: 768px){
+    .hero{
+        height: 40vh;
+        min-height: 450px;
+    }
+
     .display-none{
         display: initial;
     }
@@ -225,5 +232,20 @@ footer{
 
     .person-card {
         flex-basis: calc(50% - 5px);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .wrapper{
+        min-width: 1024px;
+        padding: 0 100px;
+    }
+
+    .hero{
+        height: 60vh;
+    }
+
+    .project {
+        flex-basis: calc(25% - 7.5px);
     }
 }
